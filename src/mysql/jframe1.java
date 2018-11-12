@@ -52,7 +52,7 @@ public class jframe1 extends JFrame {
 		txtLogin = new JTextField();
 		txtLogin.setHorizontalAlignment(SwingConstants.CENTER);
 		txtLogin.setFont(new Font("Tahoma", Font.BOLD, 14));
-		txtLogin.setBackground(UIManager.getColor("CheckBox.light"));
+		txtLogin.setBackground(Color.CYAN);
 		txtLogin.setText("LOGIN PAGE");
 		txtLogin.setBounds(150, 43, 136, 35);
 		contentPane.add(txtLogin);
